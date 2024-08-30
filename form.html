@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lam form</title>
+    <link rel="stylesheet" type="text/css" href="mycss/style.css">
+</head>
+<body>
+<div class="all">
+    <div class="header">
+        <div class="menu">
+            <a href="index.html">Trang chủ</a>
+        </div>
+        <h1>Đăng ký tài khoản</h1>
+    </div>
+</div>
+    <br>
+    <hr>
+    <br>
+    <form action="">
+        <table width="900px">
+            <caption>Nơi điền thông tin</caption>
+            <tr>
+                <th>Tên:</th>
+                <td class="textalign" colspan="2">
+                    <input name="ten" type="text" size="45">
+                </td>
+            </tr>
+            <tr>
+                <th>Nghề nghiệp:</th>
+                <td class="textalign" colspan="2">
+                    <input name="nghenghiep" type="text" size="45">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="gt">Giới tính:</label>
+                </th>
+                <td class="textalign" colspan="2">
+                    <input name="gt" id="gt" type="radio" value="Nam">Nam
+                    <input name="gt" id="cc" type="radio" value="Nu">Nữ
+                </td>
+            </tr>
+            <tr>
+                <th>Địa chỉ:</th>
+                <td class="textalign" colspan="2">
+                    <input name="diachi" type="text" size="45">
+                </td>
+            </tr>.......
+            <tr>
+                <th>Năm sinh:</th>
+                <td class="textalign" colspan="2">
+                    <input name="namsinh" type="date" size="45">
+                </td>
+            </tr>
+        </table>
+        <div class="button-container">
+            <button type="submit">Gửi đi</button>
+            <button type="reset">Làm mới</button>
+        </div>
+    </form>
+    <br>
+    <hr>
+    <form action="">
+        <div class="textarea">
+            <label for="cut">Hãy gợi ý cho chúng tôi biết nếu có lỗi</label>
+            <br>
+            <textarea id="cut" cols="100" rows="10" placeholder="Điền vào đây"></textarea>
+            <br>
+            <button type="submit">Gửi đi</button>
+            <button type="reset">Làm mới</button>
+        </div>
+    </form>
+</body>
+</html>
+
